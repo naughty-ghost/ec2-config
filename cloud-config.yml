@@ -10,7 +10,7 @@ groups:
 
 users:
   - default
-  - name: m-shibuya
+  - name: ubuntu
     groups: docker
     sudo: ALL=(ALL) NOPASSWD:ALL
     ssh_authorized_keys:
