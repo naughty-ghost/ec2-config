@@ -14,7 +14,7 @@ users:
     groups: docker
     sudo: ALL=(ALL) NOPASSWD:ALL
     ssh_authorized_keys:
-      - ssh-ed25519
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICuvtF7co7oUVdRNmYjPcaFnQDurnF4kC9PFcDynC9Uf
 
 packages:
   - make
